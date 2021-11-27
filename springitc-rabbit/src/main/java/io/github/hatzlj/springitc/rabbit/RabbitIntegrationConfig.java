@@ -1,4 +1,4 @@
-package com.github.hatzlj.springitc.axon;
+package io.github.hatzlj.springitc.rabbit;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,10 +7,6 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface AxonIntegrationConfig {
+public @interface RabbitIntegrationConfig {
     boolean sharedInstance() default true;
-
-    String initControlData();
-
-    String initEventData();
 }

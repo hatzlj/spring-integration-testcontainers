@@ -9,7 +9,7 @@
 
     <parent>
         <artifactId>spring-integration-testcontainers</artifactId>
-        <groupId>com.github.hatzlj</groupId>
+        <groupId>io.github.hatzlj</groupId>
         <version>0.1.0-SNAPSHOT</version>
     </parent>
 

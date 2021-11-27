@@ -1,4 +1,4 @@
-package com.github.hatzlj.springitc;
+package io.github.hatzlj.springitc.rabbit;
 
 import org.junit.jupiter.api.extension.AfterAllCallback;
 import org.junit.jupiter.api.extension.BeforeAllCallback;

@@ -1,4 +1,4 @@
-package com.github.hatzlj.springitc;
+package io.github.hatzlj.springitc.axon;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,10 +7,10 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface PostgresIntegrationConfig {
+public @interface AxonIntegrationConfig {
     boolean sharedInstance() default true;
 
-    String initWithDump();
+    String initControlData();
 
-    String user();
+    String initEventData();
 }
